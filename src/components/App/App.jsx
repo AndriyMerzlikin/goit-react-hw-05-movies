@@ -3,7 +3,7 @@ import MovieDetailsPage from 'pages/MovieDetailsPage';
 import MoviesPage from 'pages/MoviesPage';
 import Cast from '../Cast/Cast';
 import Reviews from '../Reviews/Reviews';
-import { NavLink, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { StyledHeader, StyledLi, StyledNavLink, StyledUl } from './App.styled';
 
 export const App = () => {
