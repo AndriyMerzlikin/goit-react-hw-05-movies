@@ -6,7 +6,7 @@ import { useParams } from 'react-router-dom';
 // export default function MovieDetailsPage() {
 //   return <div>MovieDetails</div>;
 // }
-export default function MovieDetailPage() {
+export default function MovieDetailsPage() {
   const [selecteMovie, setselecteMovie] = useState(null);
   const [genres, setGenres] = useState([]);
   const { movieId } = useParams();
